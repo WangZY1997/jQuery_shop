@@ -72,6 +72,69 @@
     text-align: center;
     line-height: 46px;
     color: white;
-    background-color: tomato;
     font-size: 24px;
+}
+
+.main {
+    height: 2504px;
+}
+
+.main .hot{
+    width: 100%;
+    height: 380px;
+}
+
+.main .hot .inner{
+    height: 380px;
+    margin: 0 auto;
+}
+.main .hot .inner h2{
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+}
+.main .hot .inner .slider-box{
+    width: 1002px;
+    height: 288px;
+    position: relative;
+}
+.main .hot .inner .slider-box a{
+    width: 37px;
+    height: 78px;
+    display: block;
+    top: 120px;
+    position: absolute;
+}
+.main .hot .inner .slider-box .prev{
+    background-image: url('../img/prev.png');
+    left: -60px;
+   
+}
+
+.main .hot .inner .slider-box .next{
+    background-image: url('../img/next.png');
+    right:-60px;
+   
+}
+
+.main .hot .inner .slider-box .slide{
+    width: 1002px;
+    height: 288px;
+    background-color: seagreen;
+    overflow: hidden;
+}
+
+.main .hot .inner .slider-box .slide ul{
+    width: 3006px;
+    height: 288px;
+    position: relative;
+}
+
+.main .hot .inner .slider-box .slide ul li{
+    width: 1002px;
+    height: 288px;
+    background-color:wheat;
+    float: left;
+    font-size: 40px;
+    
 }
