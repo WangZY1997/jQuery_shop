@@ -227,7 +227,9 @@
     border: 1px solid greenyellow;
 
 }
-
+.common ul{
+    overflow: hidden;
+}
 .common ul li{
     width: 222px;
     height: 233px;
@@ -267,6 +269,10 @@
     float: left;
 }
 
+.common ul li .info .price{
+    color: red;
+}
+
 .common ul li .info .right{
     float: right;
 }
@@ -282,7 +288,56 @@
     background: url('../img/zan.png') no-repeat left center;
 }
 
+.common .btn-more{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.common .btn-more .Commore{
+    color: red;
+    padding-left: 20px;
+}
+.common .btn-more .cl{
+    background: url('../img/more.png') no-repeat left center;
+
+}
+.common .btn-more .loading{
+    color: red;
+    padding-left: 20px;
+    background: url('../img/loading-icon.gif') no-repeat left center;
+}
 .footer {
     height: 360px;
-    background-color: salmon;
+    background-color: #505050;
+    color: #a3a3a3;
+    padding: 40px 0 15px;
+}
+
+.footer .inner{
+    height: 306px;
+}
+
+.footer .fix{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer .fix dd{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.footer .fix dt{
+    font-size: 20px;
+    color: #fff;
+}
+.footer .fix dd a{
+    color: #a3a3a3;
+
+}
+
+.footer p.copy{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
 }
